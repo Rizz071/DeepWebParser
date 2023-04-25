@@ -27,7 +27,7 @@ def getDeepIn():
     # for url in urls:
     #     print(url)
 
-    # Sorting for <a> where is 'href'
+    # Sorting for <a> where is 'href'.
     urls_href = []
     for url in urls:
         if (url.get('href') != None) and (bare_site_title in url.get('href')):
